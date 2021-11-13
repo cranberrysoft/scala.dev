@@ -3,7 +3,5 @@ steps:
   - name: python
     entrypoint: bash
     args: ["build.sh"]
-artifacts:
-  objects:
-    location: gs://scala.dev
-    paths: ['site/**']
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['-m', 'cp', '-r', 'site*', 'gs://scala.dev']
