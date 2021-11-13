@@ -1,0 +1,54 @@
+site_name: Scala for developers
+site_url: https://scala.dev
+site_author: Mariusz Dubielecki
+site_description: All about Scala language and more
+
+repo_name: scala.dev
+repo_url: https://github.com/cranberrysoft/scala.dev
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2021 Mariusz Dubielecki
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cranberrysoft
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cranberrysoft
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dubielecki/
+
+
+nav:
+  - Home: index.md
+  - Scala:
+      - Learn: scala/learn/home.md
+  - Coding:
+      - Interview:
+          - Cracking Coding interview:
+              - Task 1: coding/interview/cracking-coding-interview/task_1.md
+
