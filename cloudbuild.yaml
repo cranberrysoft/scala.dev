@@ -3,5 +3,5 @@ steps:
   - name: python
     entrypoint: bash
     args: ["build.sh"]
-- name: 'gcr.io/cloud-builders/gsutil'
-  args: ['-m', 'cp', '-r', 'site*', 'gs://scala.dev']
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'site*', 'gs://scala.dev']
