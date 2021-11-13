@@ -6,4 +6,4 @@ steps:
 artifacts:
   objects:
     location: gs://scala.dev
-    paths: ['/workspace/site/']
+    paths: ['site/**']
