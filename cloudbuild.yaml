@@ -1,8 +1,8 @@
 steps:
   # Install dependencies
   - name: python
-    entrypoint: pip
-    args: ["install", "mkdocs-material","&&", "mkdcos","build"]
+    entrypoint: bash
+    args: ["build.sh"]
 artifacts:
   objects:
     location: gs://scala.dev
