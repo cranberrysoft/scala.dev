@@ -46,7 +46,8 @@ extra:
 nav:
   - Home: index.md
   - Scala:
-      - Learn: scala/learn/home.md
+      - Learn:
+        - Hello Scala: scala/learn/home.md
   - Coding:
       - Interview:
           - Cracking Coding interview:
