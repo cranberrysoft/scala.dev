@@ -1,7 +1,7 @@
 # Hello Scala
 
 I remember my first steps in Basic and my first program Hello World.
-I like staring a journey with new technology using this "old-school" approach for writing  Hello World application first which reminds me the old times when computers were something magic for me.
+I like staring a journey with new technology using this "old-school" approach for writing  Hello World application first which reminds me the old times when computers were something magically for me.
 
 ```scala
 object HelloScala {
