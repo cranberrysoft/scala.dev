@@ -39,9 +39,7 @@ a source of bugs. Also, it requires a lot of effort from a developer to parse in
 Let's consider now a functional solution in Scala
 
 ```scala
-object Tak_1_6 {
-
-  def compress(text: String): String = {
+def compress(text: String): String = {
     return text
       .map(character => Group(character.toString))
       .reduceLeftOption(
@@ -50,7 +48,6 @@ object Tak_1_6 {
       .filter(_.resultSize() < text.length)
       .map(_.result())
       .getOrElse(text)
-  }
 }
 
 case class Group(character: String, count: Int = 1) {
