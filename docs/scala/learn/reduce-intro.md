@@ -36,6 +36,8 @@ function compress(text) {
 This solution works, and it might be efficient. The problem is it involves many conditions, which are very often
 a source of bugs. Also, it requires a lot of effort from a developer to parse in their mind every line and get a general idea of how it works. Yes, a developer has to imitate the runtime execution of the program.
 
+## Functional solution
+
 Let's consider now a functional solution in Scala
 
 ```scala
