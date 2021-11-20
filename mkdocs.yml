@@ -48,6 +48,7 @@ nav:
   - Scala:
       - Learn:
         - Hello Scala: scala/learn/home.md
+        - Reduce: scala/learn/reduce-intro.md
   - Coding:
       - Interview:
           - Cracking Coding interview:
