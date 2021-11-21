@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block libs %}
+{{ super() }}
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js'
+import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js'
+
+const firebaseConfig = {
+    apiKey: "$FIREBASE_KEY",
+    authDomain: "$FIREBASE_AUTH_DOMAIN",
+    projectId: "$FIREBASE_PROJECT_ID",
+    storageBucket: "$FIREBASE_BUCKET",
+    messagingSenderId: "66839936636",
+    appId: "1:66839936636:web:938c46d84cc70b496b93f9",
+    measurementId: "G-V08Y5PPH31"
+};
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics();
+</script>
+{% endblock %}
