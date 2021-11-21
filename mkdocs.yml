@@ -51,4 +51,4 @@ nav:
         - Reduce: scala/learn/reduce-intro.md
 
 extra_javascript:
-  js/firebase.js
+  - js/firebase.js
