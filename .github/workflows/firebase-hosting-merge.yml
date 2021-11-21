@@ -19,10 +19,10 @@ jobs:
             ./build.sh
         shell: bash
         env:
-          FIREBASE_KEY: ${{ secrets.$FIREBASE_KEY }}
-          FIREBASE_AUTH_DOMAIN: ${{ secrets.$FIREBASE_AUTH_DOMAIN }}
-          FIREBASE_PROJECT_ID: ${{ secrets.$FIREBASE_PROJECT_ID }}
-          FIREBASE_BUCKET: ${{ secrets.$FIREBASE_BUCKET }}
+          FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
+          FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_BUCKET: ${{ secrets.FIREBASE_BUCKET }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
