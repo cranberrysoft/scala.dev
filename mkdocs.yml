@@ -50,3 +50,5 @@ nav:
         - Hello Scala: scala/learn/home.md
         - Reduce: scala/learn/reduce-intro.md
 
+extra_javascript:
+  js/firebase.js
