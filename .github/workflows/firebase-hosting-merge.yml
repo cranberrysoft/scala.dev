@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - run: ./build.sh
+      - run: |
+            chmod +x ./build.sh
+            ./build.sh
+        shell: bash
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
