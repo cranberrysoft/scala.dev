@@ -1,6 +1,3 @@
-<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
-<script src='https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js'></script>
-<script>
 const firebaseConfig = {
     apiKey: "AIzaSyAaxpqvxfhPPj4ens_HvfnlAT3-6Qx7MEA",
     authDomain: "scaladev.firebaseapp.com",
@@ -12,4 +9,3 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-</script>
